@@ -1,49 +1,305 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <!--Required Meta Tags-->
-        <meta charset="utf 8">
-        <meta http equiv="X-UA Compatible" content="IE-edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <!--Title -->
-        <title>Modern Responsive Website</title>
-        
-        <!--Favicon-->
-        <link rel="shortcut icon" href="img/html5_logo.png">
-        
-        <!--Fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
-        
-        <!--Font Awesome-->
-        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-        
-        <!--Bootstrap-->
-        <link rel="stylesheet" href="css/bootsrap/bootstrap.min.css">
-        
-        <!--Style CSS-->
-        <link rel="stylesheet" href="css/style.css">
-        
-        
-    </head>
+
+<head>
+    <!--Required Meta Tags-->
+    <meta charset="utf 8">
+    <meta http equiv="X-UA Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Title -->
+    <title>Modern Responsive Website</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/html5_logo.png">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootsrap/bootstrap.min.css">
     
-    <body>
-       
-        <h1>Welcome to Jquery site</h1>
+    <!--Animate CSS-->
+    <link rel="stylesheet" href="css/animate/animate.css">
+    <!--Style CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!--Home-->
+    <section id="home">
+        <div id="home-cover" class="bg-parallax animated fadeIn">
+            <div id="home-content-box">
+                <div id="home-content-box-inner">
+                    <div id="home-heading" class="animated zoomIn">
+
+                        <h3>Watch out<br> The Modern Responsive Website
+                        </h3>
+                    </div>
+
+                    <div id="home-btn" class="animated zoomIn">
+                        <a class="btn btn-lg btn-general btn-white" href="#work" role="button" title="View Our Work">View Our Work</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Services-->
+    <section id="services"> 
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+                <h3> Services </h3>
+                <div class="content-title-underline"></div>
+            </div>
+        </div>
         
-        <i class="fa fa-laptop fa-5x"></i>
-        
-        
-        
-        <!--Jquery-->
-        <script src="js/jquery-3.2.1.min.js"></script>
-        
-        <!--Bootsrap JS, require use of Jquery-->
-        <script src="js/bootstrap/bootstrap.min.js"></script>        
+        <div class="container">
+            <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s"> 
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <div class="service-item-icon">
+                            <i class="fa fa-paint-brush fa-3x"></i>
+                        </div>
+                        <div class="service-item-title">
+                            <h3>Web Design</h3>
+                        </div>
+                        <div class="service-item-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <div class="service-item-icon">
+                            <i class="fa fa-laptop fa-3x"></i>
+                        </div>
+                        <div class="service-item-title">
+                            <h3>Web Development</h3>
+                        </div>
+                        <div class="service-item-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                
+                    <div class="service-item">
+                        <div class="service-item-icon">
+                            <i class="fa fa-tablet fa-3x"></i>
+                        </div>
+                        <div class="service-item-title">
+                            <h3>Mobile Apps</h3>
+                        </div>
+                        <div class="service-item-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="col-md-4">
+                   
+                    <div class="service-item">
+                        <div class="service-item-icon">
+                            <i class="fa fa-search fa-3x"></i>
+                        </div>
+                        <div class="service-item-title">
+                            <h3>SEO Optimization</h3>
+                        </div>
+                        <div class="service-item-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <div class="service-item-icon">
+                            <i class="fa fa-wechat fa-3x"></i>
+                        </div>
+                        <div class="service-item-title">
+                            <h3>UX Design</h3>
+                        </div>
+                        <div class="service-item-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                
+                    <div class="service-item">
+                        <div class="service-item-icon">
+                            <i class="fa fa-life-ring fa-3x"></i>
+                        </div>
+                        <div class="service-item-title">
+                            <h3>Support</h3>
+                        </div>
+                        <div class="service-item-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                
+                </div>
+
+            </div>
+        </div>
     
-        <!-- Custom JS-->
-        <script src="js/custom.js"></script>            
-    </body>
     
+    </section>
+    
+    <!--About-->
+    <section id="about">
+    
+        <!-- About right side with diagoal BG parallax -->
+        <div id="about-bg-diagonal" class="bg-parallax">
+            
+        </div>
+        
+        <!--About left side with content-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="about-content-box">
+                        <div id="about-content-box-outer">
+                            <div id="about-content-box-inner">
+                            
+                                <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+                                    <h3> About Vesco </h3>
+                                    <div class="content-title-underline"></div>
+                                </div>
+                                
+                                <div id="about-description" class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quasi dolorem molestias odit ea obcaecati accusantium sed, reiciendis quas illum ad eveniet nulla, doloribus sit? Deleniti, eveniet necessitatibus ex esse.    
+                                    </p>
+                                </div>
+                                
+                                <div id="about-btn" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                                    <a class="btn btn-lg btn-general btn-blue" href="#work" role="button"> Our Work
+                                    </a>
+                                </div>
+                                
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    
+    <!--Work-->
+    <section id="work">
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+                <h3> Our Work </h3>
+                <div class="content-title-underline"></div>
+            </div>
+        </div>
+        
+            <div class="container">
+                <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                   
+                    <div class="col-md-3">
+                        <div class="img-wrapper">
+                            <a href="img/work/1.jpg" title="Work Description Goes Here">
+                                <img src="img/work/1.jpg"  class="img-fluid" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="img-wrapper">
+                            <a href="img/work/2.jpg" title="Work Description Goes Here">
+                                <img src="img/work/2.jpg" class="img-fluid" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="img-wrapper">
+                            <a href="img/work/3.jpg" title="Work Description Goes Here">
+                                <img src="img/work/3.jpg" class="img-fluid" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="img-wrapper">
+                            <a href="img/work/4.jpg" title="Work Description Goes Here">
+                                <img src="img/work/4.jpg" class="img-fluid" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="col-md-3">
+                        <div class="img-wrapper">
+                            <a href="img/work/5.jpg" title="Work Description Goes Here">
+                                <img src="img/work/5.jpg" class="img-fluid" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="img-wrapper">
+                            <a href="img/work/6.jpg" title="Work Description Goes Here">
+                                <img src="img/work/6.jpg" class="img-fluid" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="img-wrapper">
+                            <a href="img/work/7.jpg" title="Work Description Goes Here">
+                                <img src="img/work/7.jpg" class="img-fluid" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="img-wrapper">
+                            <a href="img/work/8.jpg" title="Work Description Goes Here">
+                                <img src="img/work/8.jpg" class="img-fluid" alt="Work">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        
+        
+        
+    </section>
+    
+
+    
+    
+    
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+    <!--Jquery-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!--Bootsrap JS, require use of Jquery-->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    
+    <!--Wow.js-->
+    <script src="/js/wow/wow.min.js"></script>
+
+    <!-- Custom JS-->
+    <script src="js/custom.js"></script>
+</body>
+
 </html>
